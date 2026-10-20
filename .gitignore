@@ -1,0 +1,19 @@
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Editor temporary files
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
