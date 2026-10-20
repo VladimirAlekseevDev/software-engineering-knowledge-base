@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concurrency/java-collections/1_Overview.md",
+                "file": "templates/technical-note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_Overview"
+              "title": "technical-note"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "concurrency/java-collections/1_Overview.md",
+                "file": "templates/technical-note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "concurrency/java-collections/1_Overview.md",
+                "file": "templates/technical-note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "concurrency/java-collections/1_Overview.md",
+                "file": "templates/technical-note.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -189,5 +189,12 @@
     }
   },
   "active": "1018c8d737de5536",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "concurrency/java-collections/1_Overview.md",
+    "templates/technical-note.md",
+    "templates/technical-note.md~",
+    "templates",
+    "Без названия.base",
+    "Без названия.canvas"
+  ]
 }
