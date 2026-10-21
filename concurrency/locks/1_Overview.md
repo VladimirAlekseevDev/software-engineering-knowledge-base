@@ -141,6 +141,10 @@ See the [Condition contract](https://docs.oracle.com/en/java/javase/25/docs/api/
 
 `StampedLock` is another locking tool, but implements neither interface directly. It offers `Lock` adapter views through `asReadLock()` and `asWriteLock()`; its stamp-based API and non-reentrant behavior require separate consideration. See the [StampedLock API](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/concurrent/locks/StampedLock.html).
 
+## Related Synchronizers
+
+- [CountDownLatch](4_CountDownLatch.md): a one-time gate for waiting until a fixed number of signals arrive. It coordinates progress and publication; it does not implement `Lock` or provide mutual exclusion.
+
 ## Best Practices
 
 - Keep locks private and stable, usually in `final` fields; document which state each protects.
