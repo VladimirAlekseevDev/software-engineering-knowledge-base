@@ -144,6 +144,7 @@ See the [Condition contract](https://docs.oracle.com/en/java/javase/25/docs/api/
 ## Related Synchronizers
 
 - [CountDownLatch](4_CountDownLatch.md): a one-time gate for waiting until a fixed number of signals arrive. It coordinates progress and publication; it does not implement `Lock` or provide mutual exclusion.
+- [CyclicBarrier](5_CyclicBarrier.md): a reusable rendezvous where a fixed number of participants wait for each other at the end of each phase. It does not implement `Lock`.
 
 ## Best Practices
 
