@@ -90,7 +90,7 @@ Weakly consistent iterators of the standard concurrent collections do not throw 
 
 | Implementation | Characteristics | Typical use |
 | --- | --- | --- |
-| [ConcurrentHashMap](ConcurrentHashMap.md) | Thread-safe hash-based map; no key ordering; atomic per-key operations such as `compute()` | Shared caches, registries, counters |
+| [ConcurrentHashMap](2_ConcurrentHashMap.md) | Thread-safe hash-based map; no key ordering; atomic per-key operations such as `compute()` | Shared caches, registries, counters |
 | [ConcurrentSkipListMap](ConcurrentSkipListMap.md) | Concurrent sorted/navigable map | Ordered keys, range queries |
 
 ### Concurrent Sets
@@ -239,7 +239,7 @@ A: When a collection is thread-confined, immutable, or consistently protected by
 
 ## Related Topics
 
-- [ConcurrentHashMap](ConcurrentHashMap.md)
+- [ConcurrentHashMap](2_ConcurrentHashMap.md)
 - [CopyOnWriteArrayList](CopyOnWriteArrayList.md)
 - [ArrayBlockingQueue](ArrayBlockingQueue.md)
 - [SynchronousQueue](SynchronousQueue.md)
