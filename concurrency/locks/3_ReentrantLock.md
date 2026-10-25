@@ -38,3 +38,9 @@ A: The owning thread may acquire the same lock again without blocking itself, bu
 **Q: Can another thread unlock it?**
 
 A: No. Release by a non-owner throws `IllegalMonitorStateException`.
+
+**Q: Which performs better: ReentrantLock or a synchronized block?**
+
+A: There is no universal winner. Performance depends on the JVM/JDK version, contention, critical-section duration, hardware, and locking policy. Neither is guaranteed to be faster under low or high contention. Fair `ReentrantLock` mode can substantially reduce throughput compared with its default nonfair mode.
+
+Prefer `synchronized` when its simpler structure meets the requirements. Choose `ReentrantLock` when its capabilities are needed, such as timed or interruptible acquisition and multiple conditions. If performance drives the choice, benchmark a representative shared-lock workload on the target JDK, for example with JMH, and compare throughput and latency.
